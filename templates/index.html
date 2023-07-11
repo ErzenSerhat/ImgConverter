@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Görsel Uzantı Dönüştürücü</title>
+</head>
+<body>
+    <h1>Görsel Uzantı Dönüştürücü</h1>
+    <form action="/convert" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*">
+        <br>
+        Hedef Uzantı: 
+        <select name="extension">
+            <option value=".jpg">.jpg</option>
+            <option value=".png">.png</option>
+            <option value=".gif">.gif</option>
+        </select>
+        <br>
+        <input type="submit" value="Dönüştür">
+    </form>
+</body>
+</html>
